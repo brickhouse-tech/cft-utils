@@ -1,33 +1,57 @@
 import globals from "globals";
 import js from "@eslint/js";
-import { defineConfig } from "eslint/config";
-import mochaPlugin from "eslint-plugin-mocha";
 
-export default defineConfig([
+export default [
+  js.configs.recommended,
   {
     files: ["**/*.js"],
     languageOptions: {
+      ecmaVersion: 2022,
+      sourceType: "commonjs",
       globals: {
         ...globals.commonjs,
         ...globals.node,
       },
     },
-    plugins: {
-      js,
-      mocha: mochaPlugin,
-    },
     rules: {
-      ...mochaPlugin.configs.recommended.rules,
-      "mocha/no-setup-in-describe": "off",
       "no-unused-vars": "warn",
       "comma-dangle": ["error", "always-multiline"],
     },
-    ignores: [
-      'node_modules',
-      'node_modules/**/*.js',
-      'dist',
-      'lib',
-      'tmp',
-    ]
   },
-]);
+  {
+    files: ["**/*.test.js"],
+    languageOptions: {
+      globals: {
+        describe: "readonly",
+        it: "readonly",
+        expect: "readonly",
+        beforeEach: "readonly",
+        afterEach: "readonly",
+        beforeAll: "readonly",
+        afterAll: "readonly",
+        vi: "readonly",
+      },
+    },
+  },
+  {
+    files: ["**/*.mjs"],
+    languageOptions: {
+      ecmaVersion: 2022,
+      sourceType: "module",
+      globals: {
+        ...globals.node,
+      },
+    },
+    rules: {
+      "no-unused-vars": "warn",
+    },
+  },
+  {
+    ignores: [
+      "node_modules/**",
+      "dist/**",
+      "lib/**",
+      "tmp/**",
+    ],
+  },
+];
