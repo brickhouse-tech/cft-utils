@@ -37,8 +37,8 @@
     "unused:dependencies": "depcheck --ignore-bin-package --ignores @znemz/skip-npm-task,sort-package-json"
   },
   "dependencies": {
-    "debug-fabulous": "2.0.39",
-    "glob": "11.1.0"
+    "debug-fabulous": "2.0.41",
+    "glob": "13.0.1"
   },
   "devDependencies": {
     "@commitlint/cli": "^20",
@@ -52,10 +52,10 @@
     "eslint": "^10",
     "eslint-config-prettier": "10",
     "eslint-plugin-prettier": "5",
-    "globals": "^16",
+    "globals": "^17",
     "prettier": "3",
     "sort-package-json": "3.6",
-    "vitest": "^3"
+    "vitest": "^4"
   },
   "engines": {
     "node": ">=20"
