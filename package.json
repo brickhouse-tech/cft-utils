@@ -38,7 +38,7 @@
   },
   "dependencies": {
     "debug-fabulous": "2.0.46",
-    "glob": "13.0.3"
+    "glob": "13.0.5"
   },
   "devDependencies": {
     "@commitlint/cli": "^20",
