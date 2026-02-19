@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [0.1.42](https://github.com/brickhouse-tech/cft-utils/compare/v0.1.41...v0.1.42) (2026-02-19)
+
+
+### Bug Fixes
+
+* **ci:** add permissions and secrets to publish workflow ([95762b8](https://github.com/brickhouse-tech/cft-utils/commit/95762b8d7087e04d28c069372e2686b2757b8440))
+
 ## [0.1.41](https://github.com/brickhouse-tech/cft-utils/compare/v0.1.40...v0.1.41) (2026-02-19)
 
 ## [0.1.40](https://github.com/brickhouse-tech/cft-utils/compare/v0.1.39...v0.1.40) (2026-02-19)
