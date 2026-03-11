@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [0.1.46](https://github.com/brickhouse-tech/cft-utils/compare/v0.1.45...v0.1.46) (2026-03-11)
+
+
+### Bug Fixes
+
+* change dependabot merge-method from squash to merge to preserve commit history ([da87120](https://github.com/brickhouse-tech/cft-utils/commit/da8712073f566aecaaa99e93c49208e3a686ad0f))
+
 ## [0.1.45](https://github.com/brickhouse-tech/cft-utils/compare/v0.1.44...v0.1.45) (2026-03-06)
 
 ## [0.1.44](https://github.com/brickhouse-tech/cft-utils/compare/v0.1.43...v0.1.44) (2026-03-02)
