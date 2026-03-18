@@ -5,6 +5,8 @@ on:
     tags:
       - "v*"
 
+permissions: {}
+
 jobs:
   tests:
     uses: ./.github/workflows/tests.yml
