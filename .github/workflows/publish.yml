@@ -5,11 +5,15 @@ on:
     tags:
       - "v*"
 
-permissions: {}
+permissions:
+  contents: read
+  id-token: write
 
 jobs:
   tests:
     uses: ./.github/workflows/tests.yml
+    permissions:
+      contents: read
   publish-npm:
     needs: [tests]
     uses: brickhouse-tech/.github/.github/workflows/publish.yml@main
