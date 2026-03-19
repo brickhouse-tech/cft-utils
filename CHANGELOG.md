@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [0.1.49](https://github.com/brickhouse-tech/cft-utils/compare/v0.1.48...v0.1.49) (2026-03-19)
+
+
+### Bug Fixes
+
+* **ci:** publish workflow permissions - top-level permissions: {} blocks OIDC ([0da4497](https://github.com/brickhouse-tech/cft-utils/commit/0da44977933d924bbe19a21a753ab65f679477b3))
+
 ## [0.1.48](https://github.com/brickhouse-tech/cft-utils/compare/v0.1.47...v0.1.48) (2026-03-18)
 
 ## [0.1.47](https://github.com/brickhouse-tech/cft-utils/compare/v0.1.46...v0.1.47) (2026-03-17)
