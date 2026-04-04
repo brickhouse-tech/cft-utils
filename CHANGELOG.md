@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [0.1.53](https://github.com/brickhouse-tech/cft-utils/compare/v0.1.52...v0.1.53) (2026-04-04)
+
 ## [0.1.52](https://github.com/brickhouse-tech/cft-utils/compare/v0.1.51...v0.1.52) (2026-03-31)
 
 ## [0.1.51](https://github.com/brickhouse-tech/cft-utils/compare/v0.1.50...v0.1.51) (2026-03-26)
