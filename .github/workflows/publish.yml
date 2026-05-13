@@ -16,7 +16,7 @@ jobs:
       contents: read
   publish-npm:
     needs: [tests]
-    uses: brickhouse-tech/.github/.github/workflows/publish.yml@main
+    uses: brickhouse-tech/.github/.github/workflows/publish.yml@3c0bca8e1e161a6f61aee72413611b6fca239974 # pinned SHA
     permissions:
       contents: read
       id-token: write
