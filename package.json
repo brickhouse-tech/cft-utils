@@ -45,7 +45,7 @@
     "@commitlint/config-conventional": "^21",
     "@eslint/js": "^10",
     "@znemz/skip-npm-task": "0.1.0",
-    "aws-cdk-lib": "2.254.0",
+    "aws-cdk-lib": "2.257.0",
     "commit-and-tag-version": "12",
     "commitlint": "21",
     "depcheck": "1.4.7",
