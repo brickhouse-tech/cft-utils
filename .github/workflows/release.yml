@@ -16,5 +16,7 @@ jobs:
   tag-release:
     needs: [tests]
     uses: brickhouse-tech/.github/.github/workflows/release.yml@main
+    with:
+      node-version: '22.x'
     secrets:
       GH_TOKEN: ${{ secrets.GH_TOKEN }}
