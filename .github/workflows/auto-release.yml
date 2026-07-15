@@ -5,10 +5,17 @@ on:
     tags:
       - 'v*'
 
+permissions:
+  contents: read
+
 jobs:
   tests:
     uses: ./.github/workflows/tests.yml
+    permissions:
+      contents: read
 
   release:
     needs: [tests]
     uses: brickhouse-tech/.github/.github/workflows/auto-release.yml@main
+    permissions:
+      contents: write
