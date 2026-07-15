@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [0.1.64](https://github.com/brickhouse-tech/cft-utils/compare/v0.1.63...v0.1.64) (2026-07-15)
+
+
+### Bug Fixes
+
+* **ci:** add permissions to auto-release workflow ([bba7cd2](https://github.com/brickhouse-tech/cft-utils/commit/bba7cd216d465cdc622cfee28975e8c221f8a842))
+
 ## [0.1.63](https://github.com/brickhouse-tech/cft-utils/compare/v0.1.62...v0.1.63) (2026-07-15)
 
 
