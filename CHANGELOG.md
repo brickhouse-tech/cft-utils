@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [0.1.63](https://github.com/brickhouse-tech/cft-utils/compare/v0.1.62...v0.1.63) (2026-07-15)
+
+
+### Bug Fixes
+
+* **ci:** bump commitlint workflow to node 22 (sort-package-json requires Object.groupBy) ([38b27b8](https://github.com/brickhouse-tech/cft-utils/commit/38b27b89a46e3e5d36a9f3d70a8e4e196cb00665))
+* **ci:** override release node-version to 22.x + bump engines to >=22 ([bb44801](https://github.com/brickhouse-tech/cft-utils/commit/bb44801c69091238bb16092f078ec31809a25e56))
+
 ## [0.1.62](https://github.com/brickhouse-tech/cft-utils/compare/v0.1.61...v0.1.62) (2026-06-02)
 
 ## [0.1.61](https://github.com/brickhouse-tech/cft-utils/compare/v0.1.60...v0.1.61) (2026-05-19)
