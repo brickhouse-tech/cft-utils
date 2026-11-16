@@ -37,15 +37,15 @@
     "unused:dependencies": "depcheck --ignore-bin-package --ignores @znemz/skip-npm-task,sort-package-json"
   },
   "dependencies": {
-    "debug-fabulous": "2.0.130",
-    "glob": "14.0.4"
+    "debug-fabulous": "2.0.132",
+    "glob": "14.0.6"
   },
   "devDependencies": {
     "@commitlint/cli": "^21",
     "@commitlint/config-conventional": "^21",
     "@eslint/js": "^10",
     "@znemz/skip-npm-task": "0.1.0",
-    "aws-cdk-lib": "2.275.0",
+    "aws-cdk-lib": "2.276.0",
     "commit-and-tag-version": "13",
     "commitlint": "21",
     "depcheck": "1.4.7",
